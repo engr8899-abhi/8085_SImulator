@@ -29,7 +29,7 @@ html{
     margin-left: 4rem;
 }
 .psw-panel{
-    margin-top: 8rem;
+    margin-top: 0rem;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -115,7 +115,7 @@ html{
     text-align: center;
 }
 .editor{
-    height: 100vh;
+    /* height: 80vh; */
     width: 35%;
     /* background-color: lightblue; */
     display: flex;
@@ -196,7 +196,7 @@ html{
     border: solid 1px #FF4C29;
 }
 .editor-container{
-    margin-top: 4rem;
+    margin-top: 0rem;
     width: 100%;
 }
 .opcode-container{
@@ -251,7 +251,7 @@ html{
     justify-content: center;
 }
 .memory-view-class{
-    margin-top: 4rem;
+    margin-top: 0rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -271,9 +271,9 @@ html{
 .memory-cell{
     outline: none;
     border: none;
-    width: 4rem;
-    height: 4rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
     background: #334756;
     color: white;
 }
@@ -329,7 +329,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 0rem;
     width: 100%;
 }
 .mem-rst-btn{

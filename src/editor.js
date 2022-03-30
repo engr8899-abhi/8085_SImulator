@@ -25,4 +25,4 @@ function makeMarker() {
     marker.innerHTML = "●";
     return marker;
 }
-editor.setSize("100%", 800)
+editor.setSize("100%", 700)

@@ -112,7 +112,7 @@ export class Processor {
         this.registerConfig[regName].value = this.registerConfig[regName].defValue
         box1.setAttribute('value', HEX(this.registerConfig[regName].value, this.registerConfig[regName].size));
         box1.setAttribute('maxlength', this.registerConfig[regName].size);
-        box1.setAttribute('dir', 'rtl')
+        box1.setAttribute('dir', 'ltr')
         box1.setAttribute('name', `reg${regName}-value`)
         box1.classList.toggle('ip-input', true)
         this.registerConfig[regName].nodeRef = box1
